@@ -1,0 +1,1 @@
+create table IF NOT EXISTS dentists(id int auto_increment primary key,name varchar(255),surname varchar (255),enrollment int);
