@@ -1,4 +1,4 @@
-package com.backend.integrador.dao.model;
+package com.backend.integrador.dao.model; //la capa de modelado no deberia estar dentro de la capa de persistencia
 
 import org.apache.log4j.Logger;
 
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Dentist {
-    private final static Logger log = Logger.getLogger(String.valueOf(DentistDaoH2.class));
+    private final static Logger log = Logger.getLogger(String.valueOf(DentistDaoH2.class));//el logger deberia consignar la clase presente
 
     private List<Dentist> dentists;
 

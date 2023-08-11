@@ -1,3 +1,10 @@
+import com.backend.integrador.dao.impl.DentistDao;
+import com.backend.integrador.dao.impl.DentistDaoH2;
+import com.backend.integrador.dao.model.Dentist;
+import com.backend.integrador.service.DentistCacheService;
+
+import java.sql.SQLException;
+
 public class Main {
 
     public static void main(String[] args) throws SQLException {

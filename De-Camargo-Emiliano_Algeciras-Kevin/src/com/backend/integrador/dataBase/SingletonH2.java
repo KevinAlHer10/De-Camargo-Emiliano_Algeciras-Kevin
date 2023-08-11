@@ -1,4 +1,4 @@
-package com.backend.integrador.dataBase;
+package com.backend.integrador.dataBase; //recuerden que los paquetes se nombran todo en minuscula
 
 import org.apache.log4j.Logger;
 

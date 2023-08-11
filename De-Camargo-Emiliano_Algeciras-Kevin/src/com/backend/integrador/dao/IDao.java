@@ -1,5 +1,8 @@
 package com.backend.integrador.dao;
 
+import java.sql.SQLException;
+import java.util.List;
+
 public class IDao {
     package org.example.repository;
 

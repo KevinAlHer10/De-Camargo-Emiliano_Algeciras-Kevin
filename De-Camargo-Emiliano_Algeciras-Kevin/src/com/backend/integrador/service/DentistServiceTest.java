@@ -1,7 +1,10 @@
 package com.backend.integrador.service;
 
+import com.backend.integrador.dao.IDao;
+import com.backend.integrador.dao.model.Dentist;
+
 public class DentistServiceTest {
-    private final IDao<Dentist> dentistDao;
+    private final IDao.IDao<Dentist> dentistDao;
 
     public DentistService(IDao<Dentist> dentistDao) {
         this.dentistDao = dentistDao;
